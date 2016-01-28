@@ -5,28 +5,33 @@ var selectedExportOptions = {};
 
 var androidExportOptions = [
     {
-        name: "mdpi",
-        scaleFactor: 50,
-        type: "android"
-    },
-    {
-        name: "hdpi",
+        name: "ldpi",
         scaleFactor: 75,
         type: "android"
     },
     {
-        name: "xhdpi",
+        name: "mdpi",
         scaleFactor: 100,
         type: "android"
     },
     {
-        name: "xxhdpi",
+        name: "hdpi",
         scaleFactor: 150,
         type: "android"
     },
     {
-        name: "xxxhdpi",
+        name: "xhdpi",
         scaleFactor: 200,
+        type: "android"
+    },
+    {
+        name: "xxhdpi",
+        scaleFactor: 300,
+        type: "android"
+    },
+    {
+        name: "xxxhdpi",
+        scaleFactor: 400,
         type: "android"
     }
 ];
@@ -34,17 +39,17 @@ var androidExportOptions = [
 var iosExportOptions = [
     {
         name: "",
-        scaleFactor: 50,
-        type: "ios"
-    },
-    {
-        name: "@2x",
         scaleFactor: 100,
         type: "ios"
     },
     {
+        name: "@2x",
+        scaleFactor: 200,
+        type: "ios"
+    },
+    {
         name: "@3x",
-        scaleFactor: 150,
+        scaleFactor: 300,
         type: "ios"
     }
 ];
